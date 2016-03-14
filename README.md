@@ -1,5 +1,7 @@
 # smag0-fuseki-rdf-openshift
 
+[ cet article fait partie de la série <b>RDF FACILE - Mon petit BigData</b> -> http://smag0.blogspot.fr/p/blog-page_14.html ]
+
 Un petit serveur BigData perso accessible depuis mon mobile... ou le tien
 
 jeu de test, demo : http://smag0.blogspot.fr/2016/03/un-serveur-fuseki-rdf-bigdata-sur.html
