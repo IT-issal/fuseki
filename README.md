@@ -1,5 +1,7 @@
 # smag0-fuseki-rdf-openshift
 
+Un petit serveur BigData perso accessible depuis mon mobile... ou le tien
+
 jeu de test, demo : http://smag0.blogspot.fr/2016/03/un-serveur-fuseki-rdf-bigdata-sur.html
 
 Pour accéder à ce serveur depuis votre mobile, créez une application facilment avec APP INVENTOR : http://smag0.blogspot.fr/2016/03/bigdata-facile-une-application-android.html
