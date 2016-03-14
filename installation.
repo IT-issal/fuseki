@@ -17,7 +17,7 @@ Create a `diy-0.1` application
 Add this repository
 
     cd fuseki
-    git remote add fuseki -m master git://github.com/semfact/openshift-fuseki.git
+    git remote add fuseki -m master https://github.com/scenaristeur/smag0-fuseki-rdf-openshift.git
     git pull -s recursive -X theirs fuseki master
 
 Push the repository to your OpenShift instance
@@ -29,3 +29,4 @@ And you've got Fuseki running! Check it out at
     http://fuseki-$yournamespace.rhcloud.com
 
 
+adapté de git://github.com/semfact/openshift-fuseki.git
