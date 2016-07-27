@@ -1,4 +1,8 @@
-# smag0-fuseki-rdf-openshift
+# Fuseki RDF Store
+
+[![DEPLOY ON OpenShift](http://launch-shifter.rhcloud.com/launch/DEPLOY ON.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=diy-0.1&initial_git_url=https://github.com/openshift-warrior/fuseki.git&name=Fuseki)
+
+# Excerpt
 
 [ cet article fait partie de la série <b>RDF FACILE - Mon petit BigData</b> -> http://smag0.blogspot.fr/p/blog-page_14.html ]
 
