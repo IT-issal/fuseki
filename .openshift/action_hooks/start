@@ -4,8 +4,8 @@
 # $OPENSHIFT_INTERNAL_IP:8080
 cd $OPENSHIFT_REPO_DIR/fuseki
 
-if [[ ! -d $OPENSHIFT_DATA_DIR/rdf ]] ; then
-    mkdir $OPENSHIFT_DATA_DIR/rdf
+if [[ ! -d $OPENSHIFT_DATA_DIR/ds ]] ; then
+    mkdir $OPENSHIFT_DATA_DIR/ds
 fi
 
 #nohup java -jar fuseki-server.jar --jetty-config ../conf/jetty.xml --config ../conf/services.ttl > $OPENSHIFT_DIY_LOG_DIR/fuseki.log 2>&1 &
