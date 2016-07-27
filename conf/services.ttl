@@ -24,6 +24,6 @@ tdb:GraphTDB    rdfs:subClassOf  ja:Model .
 	.
 
 <#dataset> a tdb:DatasetTDB ;
-	tdb:location "../../data/ds" ;
+	tdb:location "../data/ds" ;
 	tdb:unionDefaultGraph true ;
 	.
