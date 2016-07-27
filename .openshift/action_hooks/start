@@ -3,5 +3,10 @@
 # script. The application will work only if it binds to
 # $OPENSHIFT_INTERNAL_IP:8080
 cd $OPENSHIFT_REPO_DIR/fuseki
+
+if [[ ! -d $OPENSHIFT_DATA_DIR/rdf ]] ; then
+    mkdir $OPENSHIFT_DATA_DIR/rdf
+fi
+
 #nohup java -jar fuseki-server.jar --jetty-config ../conf/jetty.xml --config ../conf/services.ttl > $OPENSHIFT_DIY_LOG_DIR/fuseki.log 2>&1 &
 nohup java -Xmx1200M -jar fuseki-server.jar --update --jetty-config ../conf/jetty.xml --config ../conf/services.ttl > $OPENSHIFT_DIY_LOG_DIR/fuseki.log 2>&1 &

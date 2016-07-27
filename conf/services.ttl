@@ -15,7 +15,7 @@ tdb:DatasetTDB  rdfs:subClassOf  ja:RDFDataset .
 tdb:GraphTDB    rdfs:subClassOf  ja:Model .
 
 <#service> a fuseki:Service ;
-	fuseki:name                        "ds" ;
+	fuseki:name                        "rdf" ;
 	fuseki:serviceQuery                "sparql" ;
 	fuseki:serviceQuery                "query" ;
 	fuseki:serviceUpdate               "update" ;
@@ -24,6 +24,6 @@ tdb:GraphTDB    rdfs:subClassOf  ja:Model .
 	.
 
 <#dataset> a tdb:DatasetTDB ;
-	tdb:location "../data/ds" ;
+	tdb:location "../../data/rdf" ;
 	tdb:unionDefaultGraph true ;
 	.
